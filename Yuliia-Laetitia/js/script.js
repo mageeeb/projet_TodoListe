@@ -12,7 +12,7 @@ e.preventDefault();
 	console.log(task);	
 	task.textContent=input.value;
 	list.appendChild(task);
-	input.textContent=" "
+	input.value=" "
 
 }
 form.addEventListener("submit",addTask);
